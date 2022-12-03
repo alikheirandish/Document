@@ -1,0 +1,291 @@
+This is my first AsciiDoc document. +
+Tel me how to work.
+
+NOTE: this is a note
+
+TIP: this is a tip
+
+IMPORTANT: this is an important
+
+CAUTION: this is an caution
+
+WARNING: this  is a warning
+
+bold *constrained* & **un**constrained +
+italic _constrained_ & __un__constrained +
+bold italic *_constrained_* & **__un__**constrained +
+monospace `constrained` & ``un``constrained +
+monospace bold `*constrained*` & ``**un**``constrained +
+monospace italic `_constrained_` & ``__un__``constrained +
+monospace bold italic `*_constrained_*` & ``**__un__**``constrained
+
+.Kizmet's Favorite Authors
+* Edgar Allan Poe
+* Sheri S. Tepper
+* Bill Bryson
+
+//-
+
+- Edgar Allan Poe
+- Sheri S. Tepper
+- Bill Bryson
+
+//-
+
+* Apples
+* Oranges
+
+//-
+
+* Walnuts
+* Almonds
+
+.Possible DefOps manual locations
+* West wood maze
+** Maze heart
+*** Reflection pool
+** Secret exit
+* Untracked file in git repository
+
+. Protons
+. Electrons
+. Neutrons
+. salam
+
+//-
+
+[%reversed]
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+//-
+
+. Linux
+
+  * Fedora
+  * Ubuntu
+  * Slackware
+
+. BSD
+
+  * FreeBSD
+  * NetBSD
+
+[lowerroman, start=5]
+. Five
+. Six
+[loweralpha]
+.. a
+.. b
+.. c
+[upperroman]
+... Seven
+[upperalpha]
+..... eight
+
+//-
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+Keyboard:: Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+Monitor:: Displays information in visual form using text and graphics.
+
+[horizontal]
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+
+//-
+
+Dairy::
+* Milk
+* Eggs
+Bakery::
+* Bread
+Produce::
+* Bananas
+
+Operating Systems::
+  Linux:::
+    . Fedora
+      * Desktop
+    . Ubuntu
+      * Desktop
+      * Server
+  BSD:::
+    . FreeBSD
+    . NetBSD
+
+Cloud Providers::
+  PaaS:::
+    . OpenShift
+    . CloudBees
+  IaaS:::
+    . Amazon EC2
+    . Rackspace
+
+The homepage for the Asciidoctor Project is https://asciidoctor.org. 
+
+Once launched, the site will be available at \https://example.org.
+
+:hide-uri-scheme:
+The homepage for the Asciidoctor Project is https://asciidoctor.org. 
+
+Chat with other Fedora users in the irc://irc.freenode.org/#fedora[Fedora IRC channel].
+
+search/link:https://ecosia.org[Ecosia]
+
+
+
+= Asciidoctor Document Title
+
+fads
+
+sdfaa
+
+sadf
+
+dasf
+
+sadf
+
+sdf
+
+dsafd
+
+dsf
+dfas
+
+daf
+
+dsaf
+
+sfsd
+
+sadf
+
+sdf
+
+asddf
+
+dasf
+
+sdf
+
+sdf
+
+sf
+
+sdf
+
+sdf
+
+sddf
+
+sddf
+
+sfdd
+
+dsf
+sf
+sdf
+sdf
+
+
+sdf
+sdf
+ds
+ds
+sdf
+
+sdf
+
+sdf
+
+sf
+
+sf
+
+sdf
+
+sf
+
+sdf
+
+sd
+
+sdf
+
+sf
+
+sf
+
+sd
+
+s
+
+fa
+
+gg
+
+er
+
+th
+
+e
+e
+
+
+Let's view the raw HTML of the link:view-source:asciidoctor.org[Asciidoctor homepage,window=_blank].
+
+Let's view the raw HTML of the <<Asciidoctor Document Title>>
+
+Learn how to xref:link-macro[use attributes within the link macro].
+
+jkhk
+
+...jkg
+
+..kjg
+
+gjk
+
+dasf
+
+dfadas
+
+dasfdfsa
+
+dsfafads
+
+dsafads
+
+dsafasfsd
+
+fcsdgj
+
+hgjfh
+
+..fgj
+
+dfj
+
+jhfj
+
+fgds
+
+gfsg
+f
+
+dfgsdf
+
+sdfg
+
+dsfgsdf
+
+Learn how to <<link-macro, use attributes within the link macro>>.
