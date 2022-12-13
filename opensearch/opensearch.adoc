@@ -1,0 +1,9 @@
+*Install Opensearch*
+
+you can follow https://opensearch.org/docs/latest/install-and-configure/install-opensearch/tar/[opensearch document]
+
+.Disable Swap
+[source,bash]
+----
+sudo swapoff -a
+----
