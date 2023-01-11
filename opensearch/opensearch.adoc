@@ -7,3 +7,15 @@ you can follow https://opensearch.org/docs/latest/install-and-configure/install-
 ----
 sudo swapoff -a
 ----
+
+.Increase the number of memory maps available to OpenSearch
+[source,bash]
+----
+sudo vim /etc/sysctl.conf
+
+# Add a line to define the desired value
+# or change the value if the key exists,
+# and then save your changes.
+vm.max_map_count=262144
+----
+
